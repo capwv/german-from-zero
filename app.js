@@ -157,6 +157,16 @@
   }
 
   function refreshProgressUI() {
+    var staleNav = false;
+    document.querySelectorAll('.nav-item').forEach(function (n) {
+      var l = CURRICULUM.filter(function (x) { return x.id === n.dataset.id; })[0];
+      if (l && n.classList.contains('locked') !== lessonLocked(l)) staleNav = true;
+    });
+    if (staleNav) {
+      var activeId = currentLesson && currentLesson.id;
+      buildNav();
+      document.querySelectorAll('.nav-item').forEach(function (n) { n.classList.toggle('active', n.dataset.id === activeId); });
+    }
     var pct = totalLessons() ? Math.round(doneCount() / totalLessons() * 100) : 0;
     document.getElementById('progress-fill').style.width = pct + '%';
     document.getElementById('progress-text').textContent = pct + '%';
