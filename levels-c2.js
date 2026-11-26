@@ -7,10 +7,10 @@ CURRICULUM.push(
  "level": "C2",
  "skill": "core",
  "nav": "أساسي: البلاغة والتعابير",
- "title": "البلاغة والتعابير الاصطلاحية: مستوى الإتقان",
+ "title": "البلاغة والتعابير الاصطلاحية",
  "subtitle": "Redewendungen والفروق الدقيقة في المعنى",
  "blocks": [
-  { "type": "p", "text": "مستوى C2 مش عن قواعد جديدة، هو عن الإتقان: التعابير الاصطلاحية (Redewendungen)، الفروق الدقيقة بين الكلمات المتشابهة، والقدرة على تغيير الأسلوب حسب الموقف. ده مستوى المتحدث الأصلي المتعلم." },
+  { "type": "p", "text": "مستوى C2 مش عن قواعد جديدة، هو عن صقل الأسلوب: التعابير الاصطلاحية (Redewendungen)، الفروق الدقيقة بين الكلمات المتشابهة، والتدريب على تغيير الأسلوب حسب الموقف." },
   { "type": "h", "text": "Redewendungen مشهورة" },
   { "type": "ex", "items": [
    ["Da liegt der Hund begraben.", "دي لبّ المشكلة (حرفيًا: هنا مدفون الكلب)"],
@@ -151,7 +151,7 @@ CURRICULUM.push(
   { "q": "إيه الفرق بين Metapher و Vergleich؟", "options": [{ "text": "مفيش فرق" }, { "text": "Metapher بدون wie، Vergleich مع wie" }, { "text": "Vergleich أطول" }, { "text": "Metapher رسمية أكتر" }], "answer": 1, "explain": "Die Ferne IST ein Ort (Metapher) vs so groß WIE ein Haus (Vergleich)." }
  ],
  "exercises": [
-  { "task": "اكتب فقرة أدبية قصيرة (٤-٥ جمل) عن ذكرى من طفولتك، باستخدام استعارة واحدة على الأقل.", "hint": "ابدأ بتفصيل حسي (ريحة، صوت، لون).", "code": "Der Sommer in Assiut roch nach Staub und Mangos. Die Hitze war ein Tier, das auf den Straßen lag und nicht weg wollte. Aber abends, wenn der Wind kam, atmete die Stadt wieder. Wir saßen auf dem Balkon und zählten Sterne, als gäbe es nichts anderes zu tun.", "why": "الكتابة الإبداعية هي أعلى اختبار لإتقان اللغة." }
+  { "task": "اكتب فقرة أدبية قصيرة (٤-٥ جمل) عن ذكرى من طفولتك، باستخدام استعارة واحدة على الأقل.", "hint": "ابدأ بتفصيل حسي (ريحة، صوت، لون).", "code": "Der Sommer in Assiut roch nach Staub und Mangos. Die Hitze war ein Tier, das auf den Straßen lag und nicht weg wollte. Aber abends, wenn der Wind kam, atmete die Stadt wieder. Wir saßen auf dem Balkon und zählten Sterne, als gäbe es nichts anderes zu tun.", "why": "الكتابة الإبداعية تمرين متقدم بيجمع كل اللي اتدربت عليه في المسار." }
  ]
 },
 {
@@ -162,7 +162,7 @@ CURRICULUM.push(
  "title": "🗣️ كلام: نقاش فلسفي وأسلوب متغير",
  "subtitle": "تتكلم بأسلوب مناسب لكل موقف",
  "blocks": [
-  { "type": "p", "text": "في C2 المطلوب إنك تتحكم في أسلوبك: تتكلم رسمي مع مدير، دارج مع صاحب، أكاديمي في نقاش، وودي مع طفل. ده إتقان حقيقي للغة." },
+  { "type": "p", "text": "في C2 المطلوب إنك تتحكم في أسلوبك: تتكلم رسمي مع مدير، دارج مع صاحب، أكاديمي في نقاش، وودي مع طفل. دي أدق مهارات المستوى ده." },
   { "type": "speak", "items": [
    { "en": "Gestatten Sie mir eine Anmerkung.", "ar": "اسمح لي بملاحظة (رسمي جدًا)." },
    { "en": "Ich würde das gerne etwas differenzieren.", "ar": "عايز أفصّل ده أكتر (أكاديمي)." },
@@ -183,7 +183,7 @@ CURRICULUM.push(
   { "q": "عايز تقول (ده غلط) بشكل أكاديمي مهذب؟", "options": [{ "text": "Das ist falsch!" }, { "text": "Ich würde das gerne etwas differenzieren." }, { "text": "Quatsch!" }, { "text": "Stimmt nicht!" }], "answer": 1, "explain": "differenzieren = يفصّل/يدقق، بديل مهذب للرفض." },
   { "q": "(عشان نوصل للب باختصار) بالألماني؟", "options": [{ "text": "Kurz gesagt" }, { "text": "Um es auf den Punkt zu bringen" }, { "text": "Also" }, { "text": "Ja" }], "answer": 1, "explain": "auf den Punkt bringen = يوصل للب/الخلاصة." },
   { "q": "أسلوب مناسب مع أصحابك؟", "options": [{ "text": "Gestatten Sie mir eine Anmerkung" }, { "text": "Ey, das ist doch Quatsch!" }, { "text": "Ich möchte darauf hinweisen" }, { "text": "Es ist festzustellen" }], "answer": 1, "explain": "Ey + Quatsch = عامية أصحاب." },
-  { "q": "إيه أهم مهارة في C2 شفوي؟", "options": [{ "text": "سرعة الكلام" }, { "text": "تغيير الأسلوب حسب الموقف" }, { "text": "كلمات صعبة" }, { "text": "نطق مثالي" }], "answer": 1, "explain": "التحكم في الأسلوب هو قمة الإتقان." }
+  { "q": "إيه أهم مهارة في C2 شفوي؟", "options": [{ "text": "سرعة الكلام" }, { "text": "تغيير الأسلوب حسب الموقف" }, { "text": "كلمات صعبة" }, { "text": "نطق مثالي" }], "answer": 1, "explain": "التحكم في الأسلوب هو قمة مهارات المستوى ده." }
  ],
  "exercises": [
   { "task": "سجّل صوتك وإنت بتقول نفس الفكرة بـ ٣ أساليب: رسمي، محايد، دارج.", "hint": "الإجازة، الشغل، أو أي موقف من حياتك.", "code": "Formell: Ich würde gerne einen Tag Urlaub nehmen. Neutral: Ich brauche einen Tag frei. Locker: Ich muss mal 'nen Tag Pause machen.", "why": "لو قدرت تغير أسلوبك بسلاسة، مستواك C2 حقيقي." }
